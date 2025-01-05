@@ -12,6 +12,6 @@
  / / \ \ / / \ \ / / \ \ / / \ \ / / \ \ / / \ \ / / \ \ / / \ \ / / \ \ / / \ \
 `-'   `-`-'   `-`-'   `-`-'   `-`-'   `-`-'   `-`-'   `-`-'   `-`-'   `-`-'   `-`
 
-A collection of C++20 utilities which is common to a number of merry's projects.
+A collection of C++23 utilities which is common to a number of merry's projects.
 
 MIT licensed.
