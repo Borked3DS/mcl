@@ -41,7 +41,7 @@ jobs:
       - name: Update deb repositories 
         run: sudo apt-get update 
       - name: Install New Packages
-        run: sudo apt-get -y install ccache gcc-14 clang-20 clang-tools-20 clang-20-doc libxcb-xkb-dev libclang-common-20-dev libclang-20-dev libclang1-20 clang-format-20 python3-clang-20 clangd-20 clang-tidy-20 && sudo apt-get clean
+        run: sudo apt-get -y install ccache gcc-14 clang-20 clang-tools-20 clang-20-doc libxcb-xkb-dev libclang-common-20-dev libclang-20-dev libclang1-20 clang-format-20 python3-clang-20 clangd-20 clang-tidy-20 libfmt-dev && sudo apt-get clean
       - name: Get latest CMake and Ninja
         uses: lukka/get-cmake@latest
         with:
@@ -77,7 +77,7 @@ jobs:
       - name: Update deb repositories 
         run: sudo apt-get update 
       - name: Install New Packages
-        run: sudo apt-get -y install ccache gcc-14 build-essential && sudo apt-get clean
+        run: sudo apt-get -y install ccache gcc-14 build-essential libfmt-dev && sudo apt-get clean
       - name: Get latest CMake and Ninja
         uses: lukka/get-cmake@latest
         with:
